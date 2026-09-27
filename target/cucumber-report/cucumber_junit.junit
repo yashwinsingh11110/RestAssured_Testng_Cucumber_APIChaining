@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="2.752" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-09-27T07:40:32.285405Z">
+<testcase classname="Create User Functionality" name="Successfully create a new user" time="2.151">
+<system-out><![CDATA[
+Given Create data for new user..............................................passed
+When I send a POST request to create the user...............................passed
+Then the user should be created successfully with status code "201".........passed
+]]></system-out>
+</testcase>
+<testcase classname="Get User Functionality" name="Successfully get a user's details" time="0.127">
+<system-out><![CDATA[
+Given I have the id of a newly created user.................................passed
+When I send a GET request to get the user's details.........................passed
+Then the user's details should be retrieved successfully with response "200".passed
+]]></system-out>
+</testcase>
+<testcase classname="Update User Age Functionality" name="Successfully update a user's age" time="0.056">
+<system-out><![CDATA[
+Given I have the updated age "50" of a user.................................passed
+When I send a PATCH request to update the user's age........................passed
+Then the user's age should be updated successfully with status code "200"...passed
+]]></system-out>
+</testcase>
+<testcase classname="Update User Grade Functionality" name="Successfully update a user's grade" time="0.091">
+<system-out><![CDATA[
+Given I have the previous complete detail of a user with the updated grade "MCA".passed
+When I send a PUT request to update the user's subject......................passed
+Then the user's subject should be updated successfully with status code "200".passed
+]]></system-out>
+</testcase>
+<testcase classname="Delete User Functionality" name="Successfully delete a user" time="0.036">
+<system-out><![CDATA[
+Given I have the user's id..................................................passed
+When I send a DELETE request................................................passed
+Then the user should be deleted successfully with status code "200".........passed
+]]></system-out>
+</testcase>
+</testsuite>

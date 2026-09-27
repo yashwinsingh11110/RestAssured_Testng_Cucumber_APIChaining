@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ParallelClassTesting" thread-count="1" verbose="2">
+
+    <test name="ParallelClassesTesting" verbose="2">
+
+        <classes>
+            <class name="runner.ApiRunner"/>
+        </classes>
+
+    </test>
+
+</suite>

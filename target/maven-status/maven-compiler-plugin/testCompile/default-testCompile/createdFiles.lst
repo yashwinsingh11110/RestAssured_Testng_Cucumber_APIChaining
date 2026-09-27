@@ -1,0 +1,14 @@
+stepDefinitions\DeletingUserSteps.class
+context\ApiContext.class
+requests\UpdatingWithPatchRequests.class
+requests\GettingUserRequest.class
+stepDefinitions\GettingUserSteps.class
+data\Data.class
+requests\DeletingUserRequest.class
+requests\CreatingUserRequest.class
+stepDefinitions\UpdatingWithPutSteps.class
+stepDefinitions\CreatingUserSteps.class
+stepDefinitions\UpdatingWithPatchSteps.class
+runner\ApiRunner.class
+requests\UpdatingWithPutRequests.class
+hooks\Hook.class
